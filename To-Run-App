@@ -1,0 +1,20 @@
+Here is the summarized list of commands for your reference:
+
+# Navigate to project directory
+cd path/to/your/project
+
+# Build and start the containers
+docker compose up --build
+
+# Verify the containers are running
+docker ps
+
+# Access the application at http://localhost:3000
+
+# View logs (optional)
+docker compose logs -f
+
+# Stop the containers
+docker compose down
+
+By following these steps, you should be able to run both your PostgreSQL database container and your NestJS application container seamlessly.
